@@ -1,0 +1,577 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 400 14px/1 'Roboto' , sans-serif;
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+} 
+
+a {
+    text-decoration: none;
+}
+/* !!!!!!!!  reset end  !!!!!!!! */
+/* !!!!!!!!  Default classes start  !!!!!!!! */
+
+.btn {
+    display: inline-block;
+    padding: 16px 30px;
+    font-size: 24px;
+    font: 400 14px/1 'Roboto' , sans-serif;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    color: #0a0a0a;
+}
+
+.btn.btn-def {
+    background-color:#BCBE4E;
+    border-color: #BCBE4E;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.d-flex {
+    display: flex; 
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.text-centr {
+    text-align: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.section-title {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    /* text-transform: uppercase; */
+}
+
+.paragraph-def {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 110%;
+}
+
+.paddi-l {
+    padding-left: 20px;
+}
+
+.paddi-t {
+    padding-top: 25px;
+}
+/* !!!!!!!!  Default classes end  !!!!!!!! */
+
+.container-width {
+    max-width: 768px;
+    /* padding: 0 0px; */
+    margin: auto;
+}
+
+.header {
+} 
+
+.header-inner {
+    background: #275149;
+}
+
+.logo {
+    padding: 14px;
+}
+
+.main-header-nav {
+    font-size: 25px;
+    line-height: 100%;
+    color: #B9FAEF;
+    padding-right: 91px;
+}
+
+.number {
+    font-size: 25px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+
+.container-width {
+    background: #275149;
+}
+
+.paragraph {
+    max-width: 600px;
+    padding: 35px 0 29px 35px;
+    /* padding-left: 20px;
+    padding-top: 35px; */
+    background: #275149;
+    color: #FFFFFF;
+}
+
+.children {
+    /* max-width: 768px; */
+}
+
+.faces-span {
+    color: #B9FAEF;
+}
+
+.litle-span {
+    color: #FFD5B2;
+}
+
+.faces {
+    padding-top: 30px;
+}
+
+.face-children {
+    padding-right: 280px;
+}
+
+
+/* .face-litle {
+    padding-left: 270px;
+    padding-top: 1px;
+}  */
+
+.faces-litle {
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 26px;
+    font-size: 27px;
+    line-height: 40px;
+    color: #fff;
+}
+
+.qwe {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: normal;
+    color: #FFFFFF;
+    padding-left: 20px;
+    padding-top: 27px;
+}
+
+.price {
+    font-size: 30px;
+    line-height: 44px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.container-Maria-Montessori {
+    max-width: 768px;
+    padding: 0 0px;
+    margin: auto;
+}
+
+.Maria-Montessori {
+    font-size: 33px;
+    line-height: 54px;
+    font-weight: 400;
+    color:  #0F5254;
+    /* padding-left: 20px;
+    padding-bottom: 44px; */
+    padding: 45px 0 0 20px;
+}
+
+.Maria-mark {
+    background-color: #ffffff;
+    color: #ffd5b2;
+    text-decoration: underline;
+}
+
+.Montessori {
+    font-size: 33px;
+    line-height: 54px;
+    font-weight: 400;
+    color:  #0F5254;
+    padding: 20px 0 50px 20px;
+}
+
+.section-place-in-any {
+    max-width: 768px;
+    padding: 0 0px;
+    margin: auto;
+    background: #FCF3EA;
+    padding-bottom: 50px;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+/* .section {
+    max-width: 768px;
+    padding: 0 0px;
+    margin: auto;
+    background: #FCF3EA;
+}  */
+
+.Well-find {
+    font-size: 50px;
+    line-height: 64px;
+    color: #126C6F;
+    padding: 20px 0 40px 20px;
+    margin: 0;
+}
+
+.helper-tower {
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 400;
+    font-style: normal;
+    color: #222222;
+    padding-top: 20px;
+}
+
+.helper-towe {
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 400;
+    font-style: normal;
+    color: #222222;
+    padding: 20px 0;
+}
+
+/* .padding-bottom {
+    padding-bottom: 1px;
+} */
+
+.section-take-a-child {
+    max-width: 768px;
+    padding: 0 0px;
+    margin: auto;
+    background: #ffffff;
+}
+
+.take-a-child{
+    font-size: 50px;
+    line-height: 110%;
+    color: #0F5254;
+    padding-top: 50px;
+}
+
+.col-6 {
+    flex-wrap: wrap;
+}
+
+.standart-section {
+    padding: 15px 0 50px 0;  
+}
+
+.container-gallery {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 1px 15px;
+}
+
+/* .ertgergdfg {
+    display: inline-block;
+} */
+
+.affordable-prices {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.section-title {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #222222;
+    padding: 10px 0 10px 0;
+}
+
+.price-gallery {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 46px;
+    color: #222222;
+}
+
+.container-we-know {
+    max-width: 768px;
+    margin: auto;
+    background: #274E51;
+}
+
+.we-know {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 110%;
+    color: #FFD5B2;
+    padding: 50px 20px;
+} 
+
+.We-know-section {
+    max-width: 256px ;
+}
+
+.We-know-litle-1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.We-know-litle-2 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 20px 0 40px 0;
+}
+
+.container-reviews {
+    max-width: 768px;
+    margin: auto;
+    background: #E6F4F4;
+}
+
+.reviews {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 110%;
+    color: #0F5254;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.comma {
+    position: absolute;
+    padding-left: 70px;
+    margin-top: -25px;
+}
+
+.Children-furniture {
+    width: 435px;
+    height: 400px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 31px;
+    background: #ffffff;
+    padding: 20px;
+    margin: 0px 20px 50px 20px;
+}
+
+.Children-furnitur {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 15px;
+    color: #222222;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.Anastasia { 
+    padding-left: 40px 15px 30px 30px;
+} 
+
+.Velichko {
+    padding-left: 15px;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+    color: #222222;
+}
+
+.This-is-how {
+    width: 450px;
+    position: absolute;
+    padding: 50px 0 0 20px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 64px;
+    color: #ffffff;
+}
+
+.Advice {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 64px;
+    color: #3B6B6B;
+    padding-top: 50px;
+}
+
+.technique {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 64px;
+    color: #FFD5B2;;
+}
+
+.technique {
+    text-decoration: underline;
+    color: #FFD5B2; 
+    padding-bottom: 20px;
+
+}
+
+.Tips-for-parents {
+    max-width: 768px;
+    margin: auto;
+}
+
+.line1 {
+    border-bottom: 1px solid #E6E6E6;
+}
+
+.crisis {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 41px;
+    color: #222222;
+    padding-bottom: 30px;
+    padding: 20px 0 30px 20px;
+}
+
+.crisis-img {
+    padding-bottom: 27px;
+}
+
+.What-to-do {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    color: #000000;
+    padding-bottom: 50px;
+}
+
+.Give-your-child-more {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 32px;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+.eggdfgv {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 41px;
+    color: #222222;
+    padding: 20px 0 20px 20px;
+}
+
+.empty {
+    max-width: 768px;
+    height: 200px;
+    margin: auto;
+}
+
+.arrow {
+    position: absolute;
+    padding-left: 635px;
+    padding-bottom: 10px;
+}
+
+.arrow-description {
+    position: absolute;
+    margin: auto;
+}
+
+.Our-cozy {
+    max-width: 768px;
+    margin: auto;
+    background: #FCF3EA;
+}
+
+.instagram {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 46px;
+    text-align: center;
+    color: #3B6B6B;
+    padding: 50px 0 35px 0 ;
+}
+
+.instagram-mark {
+    background-color: #FCF3EA;
+    color: #ffd5b2;
+    text-decoration: underline;
+}
+
+.little-boy {
+    padding-left: 20px;
+}
+
+.little-girl {
+    padding-left: 4px;
+}
+
+.container-footer {
+    max-width: 768px;
+    margin: auto;
+    background: #ffffff;
+}
+
+.logo-footer {
+    margin: auto;
+    padding-top: 30px;
+}
+
+.footer-a { 
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #222222;
+    padding: 20px 0;
+    margin: auto;
+    
+}
+
+.footer-nav {
+    padding-bottom: 50px;
+}
+
+.logo-inst {
+    padding-left: 50px;
+    margin: auto;
+}
+
+.logo-face {
+    padding-left: 50px;
+    margin: auto;
+}
+
+.phone-footer {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    color: #126C6E;
+    margin: auto;
+}
+
